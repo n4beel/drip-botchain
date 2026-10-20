@@ -2,6 +2,25 @@
 
 Salary streamed by the second on BOT Chain.
 
+### BOT Chain mainnet (677) — live
+
+| | |
+|---|---|
+| Contract | [`0x27beC58ab2E4641CcF911773A96a6Bc55686C5e7`](https://scan.botchain.ai/address/0x27beC58ab2E4641CcF911773A96a6Bc55686C5e7) · source verified |
+| Deploy block | 27323017 |
+
+### Bohr testnet (968) — live
+
+| | |
+|---|---|
+| Contract | [`0x45B737380Ad888C1c279D5d9f373aD5c90D724D6`](https://scan.bohr.life/address/0x45B737380Ad888C1c279D5d9f373aD5c90D724D6) · source verified |
+| Deploy block | 27397071 |
+
+The two addresses differ because the deployer's nonce diverged between the chains; each is this
+contract on its own network. The site targets mainnet.
+
+---
+
 ## What it does
 Drip allows a sender to deposit BOT and stream it to a recipient continuously over time. The recipient can withdraw vested funds in partial chunks or in full at any time.
 
