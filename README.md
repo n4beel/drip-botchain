@@ -35,9 +35,13 @@ All unwithdrawn streamed funds immediately transfer to the recipient, and all un
 - **No partial stream freeze**: a stream is either active, completed, or cancelled
 
 ## Gas
-- `open()`: ~128k gas (target: ~130k)
-- `withdraw()`: ~38k gas
-- `cancel()`: ~52k gas
+
+Measured over one stream's whole life — open a 30-day stream, withdraw ten days in, cancel five
+days later:
+
+- `open()`: 121,523
+- `withdraw()`: 57,126
+- `cancel()`: 41,858
 
 ## Honest limits
 - Integer division in rate calculation floors to wei per second; any rounding dust is settled accurately at completion or cancellation
